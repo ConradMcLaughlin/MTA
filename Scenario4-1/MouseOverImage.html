@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Mouse Over Image</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h1>Please move the mouse over the image</h1>
+    
+    <!--<a href="#" 
+       onmouseover="document.getElementById('img001').src = 'http://goo.gl/3BeK';"
+       onmouseout="document.getElementById('img001').src = 'http://www.ucd.ie/juggling/images/links.jpg'"/>
+    <img src="http://www.ucd.ie/juggling/images/links.jpg" id="img001" height="400" width="400"/>
+    -->
+
+    <img src='http://goo.gl/3BeK' height="400" width="400"
+         onmouseover="this.src = 'http://www.ucd.ie/juggling/images/links.jpg';" 
+         onmouseout="this.src = 'http://goo.gl/3BeK';" />
+</body>
+</html>

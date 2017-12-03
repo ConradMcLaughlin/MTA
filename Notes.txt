@@ -1,0 +1,6 @@
+Select * from Customers
+
+SELECT ShipCountry, COUNT(ShipCountry) AS OrderCount
+FROM Orders
+GROUP BY ShipCountry
+ORDER BY OrderCount DESC
